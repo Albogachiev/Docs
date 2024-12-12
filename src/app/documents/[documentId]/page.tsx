@@ -6,8 +6,7 @@ interface Params {
 const DocumentsIdPage = async ({ params }: Params) => {
   const { documentId } = await params;
   return (
-    <div>
-      <h1 className='text-3xl'>Document Id:{documentId}</h1>
+    <div className='min-h-screen bg-[#FAFBFD]'>
       <Editor />
     </div>
   );
